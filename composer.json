@@ -1,0 +1,30 @@
+{
+  "name": "shopwwi/webman-socialite",
+  "description": "Webman Socialite",
+  "homepage": "https://github.com/shopwwi/webman-socialite",
+  "keywords": ["socialite", "QQ", "Sina","Wechat",'douyin'],
+  "type": "library",
+  "require": {
+    "php": "^7.2|^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.0|^7.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shopwwi\\WebmanSocialite\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Tycoon Song",
+      "email": "8988354@qq.com"
+    }
+  ]
+}
