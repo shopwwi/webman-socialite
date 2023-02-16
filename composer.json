@@ -2,7 +2,7 @@
   "name": "shopwwi/webman-socialite",
   "description": "Webman Socialite",
   "homepage": "https://github.com/shopwwi/webman-socialite",
-  "keywords": ["socialite", "QQ", "Sina","Wechat",'douyin'],
+  "keywords": ["socialite","Webman", "QQ", "Sina","Wechat","DouYin","coding"],
   "type": "library",
   "require": {
     "php": "^7.2|^8.0",
