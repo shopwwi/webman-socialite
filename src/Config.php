@@ -2,10 +2,7 @@
 
 namespace Shopwwi\WebmanSocialite;
 
-use ArrayAccess;
-use JsonSerializable;
-
-class Config implements ArrayAccess, JsonSerializable
+class Config
 {
     protected array $config;
 
