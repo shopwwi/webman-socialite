@@ -22,7 +22,7 @@ class AbstractUser implements \Shopwwi\WebmanSocialite\Contracts\User
 {
     use \Shopwwi\WebmanSocialite\Contracts\HasAttributes;
 
-    public function __construct(array $attributes)
+    public function __construct(array $attributes, protected ?Contracts\ProviderInterface $provider = null)
     {
         $this->attributes = $attributes;
     }
