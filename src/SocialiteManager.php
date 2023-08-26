@@ -24,6 +24,7 @@ class SocialiteManager implements Contracts\Factory
 {
     protected array $resolved = [];
     protected static array $customCreators = [];
+    protected $config;
 
     public function __construct(array $config = [])
     {
