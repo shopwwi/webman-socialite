@@ -90,7 +90,7 @@ class LinkedinProvider extends AbstractProvider
             ],
         ]);
 
-        return $this->fromJsonBody($response)['elements.0.handle~'] ?? [];
+        return $this->fromJsonBody($response)['elements'][0]['handle~'] ?? [];
     }
 
     /**
