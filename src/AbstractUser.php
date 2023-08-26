@@ -16,10 +16,9 @@
  */
 
 namespace Shopwwi\WebmanSocialite;
-use ArrayAccess;
-use JsonSerializable;
 
-class AbstractUser implements ArrayAccess, \Shopwwi\WebmanSocialite\Contracts\User, JsonSerializable
+
+class AbstractUser implements \Shopwwi\WebmanSocialite\Contracts\User
 {
     use \Shopwwi\WebmanSocialite\Contracts\HasAttributes;
 
